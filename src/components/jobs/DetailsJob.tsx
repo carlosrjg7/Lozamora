@@ -1,6 +1,8 @@
 import type { IJob } from "@/types/Jobs";
 import {
+  BellAlertIcon,
   EllipsisVerticalIcon,
+  FlagIcon,
   HeartIcon,
   ShareIcon,
 } from "@heroicons/react/24/outline";
@@ -87,6 +89,16 @@ export default function DetailsJob({ job }: DetailsJobProps) {
           >
             Postularme
           </button>
+        </div>
+        <div className='w-1/2 flex flex-row gap-16 justify-center mx-auto pt-4 text-xs'>
+          <span className='text-font font-light cursor-pointer'>
+            <FlagIcon className='h-4 w-4 inline-block mr-1' />
+            Denunciar empleo
+          </span>
+          <span className='text-font font-light cursor-pointer'>
+            <BellAlertIcon className='h-4 w-4 inline-block mr-1' />
+            Recibir ofertas similares
+          </span>
         </div>
       </div>
     </section>
