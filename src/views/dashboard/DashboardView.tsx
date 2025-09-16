@@ -1,12 +1,12 @@
 import Buscador from "@/components/jobs/hero/Buscador";
 import Sidebar from "@/components/jobs/sidebar/Sidebar";
-import SimpleBar from "simplebar-react";
 import { JOBS } from "@/constants/Jobs";
 import type { IJob } from "@/types/Jobs";
 import { useState } from "react";
+import DetailsJob from "@/components/jobs/DetailsJob";
 
 export default function DashboardView() {
-  const [selectedJob, setSelectedJob] = useState<IJob | null>(null);
+  const [selectedJob, setSelectedJob] = useState<IJob>(JOBS[0]);
 
   const handleJobSelected = (job: IJob) => {
     console.log("Job selected:", job);
@@ -28,14 +28,8 @@ export default function DashboardView() {
           <aside className='w-1/4'>
             <Sidebar jobs={JOBS} fnJobSelected={handleJobSelected} />
           </aside>
-          <div className='border border-gray-200 rounded-2xl flex-1'>
-            <SimpleBar className='h-full'>
-              <div className='p-4'>
-                <div>{selectedJob?.title}</div>
-                <p>{selectedJob?.details}</p>
-              </div>
-            </SimpleBar>
-          </div>
+
+          <DetailsJob job={selectedJob} />
         </div>
       </div>
     </>
