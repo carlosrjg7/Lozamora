@@ -48,14 +48,14 @@ export default function Sidebar({ jobs, fnJobSelected }: SidebarProps) {
       <div className='absolute bottom-0 w-full flex justify-between gap-4 px-3 bg-white py-2'>
         <button
           type='button'
-          className='w-full bg-primary-200 text-font font-semibold rounded-2xl px-4 py-2'
+          className='w-full bg-primary-200 text-font font-semibold font-poppins text-xs rounded-2xl px-4 py-2'
           onClick={handlePrevious}
         >
           Anterior
         </button>
         <button
           type='button'
-          className='w-full bg-primary-500 text-white font-semibold rounded-2xl px-4 py-2'
+          className='w-full bg-primary-500 text-white font-semibold font-poppins text-xs rounded-2xl px-4 py-2'
           onClick={handleNext}
         >
           Siguiente
