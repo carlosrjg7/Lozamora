@@ -8,6 +8,8 @@ interface IJob {
   requirements: string[];
   company: string;
   logo: string;
+  contractType: string;
+  time: string;
 }
 
 export type { IJob };

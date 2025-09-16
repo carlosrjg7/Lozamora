@@ -11,7 +11,7 @@ export default function Card({ job, active = false, fnCallback }: CardProps) {
   return (
     <article
       data-id={job.id}
-      className={` rounded-2xl p-4 flex flex-col mb-4 w-full cursor-pointer ${
+      className={`rounded-2xl p-4 flex flex-col mb-4 w-full cursor-pointer ${
         active
           ? "border-2 border-primary-100 bg-primary-50 "
           : "border border-gray-200"

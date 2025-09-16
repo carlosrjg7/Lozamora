@@ -13,14 +13,13 @@ export default function AppLayout() {
         <section className='w-full mx-auto'>
           <Outlet />
         </section>
-
-        <footer className='py-5'>
-          <p className='text-center font-roboto'>
-            &copy; {new Date().getFullYear()} Grupo Lozamora - Todos los
-            derechos reservados.
-          </p>
-        </footer>
       </SimpleBar>
+      <footer className='py-5 block'>
+        <p className='text-center font-gray-200 text-sm font-roboto'>
+          &copy; {new Date().getFullYear()} Grupo Lozamora - Todos los derechos
+          reservados.
+        </p>
+      </footer>
 
       <ToastContainer />
     </div>

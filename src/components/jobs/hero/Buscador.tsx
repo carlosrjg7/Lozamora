@@ -26,7 +26,7 @@ export default function Buscador() {
               initial={{ opacity: 0, y: -20, height: 0 }}
               animate={{ opacity: 1, y: 0, height: "auto" }}
               exit={{ opacity: 0, y: -20, height: 0 }}
-              transition={{ duration: 0.3 }}
+              transition={{ duration: 0.6 }}
               className='mb-4 text-center md:text-left space-y-2 motionDiv'
             >
               <span className='text-font font-roboto leading-normal'>

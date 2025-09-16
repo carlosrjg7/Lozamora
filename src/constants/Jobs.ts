@@ -9,6 +9,8 @@ export const JOBS: IJob[] = [
     location: "San Juan de Lurigancho, Lima",
     modality: "Presencial / Remoto",
     posted: "Hace 30 minutos",
+    contractType: "Contrato Indefinido",
+    time: "Tiempo completo",
     details:
       "Altimea, consultora de tecnología e innovación digital, se encuentra en la búsqueda de un Analista de Exportaciones con amplia experiencia en logística internacional. Será responsable de supervisar el flujo de mercancías desde el origen hasta el destino final, asegurando la correcta documentación y cumplimiento de normas aduaneras. Deberá coordinar con proveedores y clientes para garantizar entregas eficientes y optimizar rutas y costos.\n\nAdemás, participará en la planificación estratégica de la cadena de suministro, implementando mejoras continuas y generando reportes periódicos para la toma de decisiones. Mantendrá registros de envíos e inventarios actualizados y participará en auditorías internas y externas. Se requiere capacidad analítica para detectar problemas y proponer soluciones efectivas.\n\nEl Analista de Exportaciones contribuirá a la optimización de procesos mediante nuevas tecnologías y herramientas de gestión logística. Será clave en la formación del equipo y deberá mantenerse actualizado sobre regulaciones internacionales y tratados comerciales. Se valorará proactividad, organización, atención al detalle y habilidades de comunicación efectiva.",
     requirements: [
@@ -27,6 +29,8 @@ export const JOBS: IJob[] = [
     location: "Lima, Perú",
     modality: "Remoto",
     posted: "Hace 1 hora",
+    contractType: "Contrato Indefinido",
+    time: "Tiempo completo",
     details:
       "Se busca un Desarrollador Frontend especializado en React y TypeScript para crear interfaces modernas y escalables. Será responsable de implementar componentes reutilizables y garantizar la correcta integración con servicios y APIs. Debe tener experiencia en proyectos complejos, metodologías ágiles y control de versiones, asegurando calidad y rendimiento de las aplicaciones web.\n\nEl candidato participará en revisiones de código, pruebas unitarias e integración, y documentará los cambios realizados. Colaborará en planificación de nuevas funcionalidades y mejora continua de las aplicaciones existentes. Se espera que proponga soluciones innovadoras y contribuya a la optimización del rendimiento y la accesibilidad.\n\nSe valorará proactividad, aprendizaje constante, adaptación a nuevas tecnologías y habilidades de comunicación efectiva. Experiencia en APIs RESTful, GraphQL, WebSockets y testing con Jest será altamente valorada.\n\nEl candidato participará en revisiones de código, pruebas unitarias e integración, y documentará los cambios realizados. Colaborará en planificación de nuevas funcionalidades y mejora continua de las aplicaciones existentes. Se espera que proponga soluciones innovadoras y contribuya a la optimización del rendimiento y la accesibilidad.\n\nSe valorará proactividad, aprendizaje constante, adaptación a nuevas tecnologías y habilidades de comunicación efectiva. Experiencia en APIs RESTful, GraphQL, WebSockets y testing con Jest será altamente valorada.\n\nEl candidato participará en revisiones de código, pruebas unitarias e integración, y documentará los cambios realizados. Colaborará en planificación de nuevas funcionalidades y mejora continua de las aplicaciones existentes. Se espera que proponga soluciones innovadoras y contribuya a la optimización del rendimiento y la accesibilidad.\n\nSe valorará proactividad, aprendizaje constante, adaptación a nuevas tecnologías y habilidades de comunicación efectiva. Experiencia en APIs RESTful, GraphQL, WebSockets y testing con Jest será altamente valorada.\n\nEl candidato participará en revisiones de código, pruebas unitarias e integración, y documentará los cambios realizados. Colaborará en planificación de nuevas funcionalidades y mejora continua de las aplicaciones existentes. Se espera que proponga soluciones innovadoras y contribuya a la optimización del rendimiento y la accesibilidad.\n\nSe valorará proactividad, aprendizaje constante, adaptación a nuevas tecnologías y habilidades de comunicación efectiva. Experiencia en APIs RESTful, GraphQL, WebSockets y testing con Jest será altamente valorada. aaaa",
     requirements: [
@@ -45,6 +49,8 @@ export const JOBS: IJob[] = [
     location: "Remoto",
     modality: "Freelance",
     posted: "Hace 2 horas",
+    contractType: "Contrato por Proyecto",
+    time: "Medio tiempo",
     details:
       "Se busca un Diseñador UI/UX para crear experiencias digitales atractivas y centradas en el usuario. Será responsable de prototipos, wireframes y mockups de alta fidelidad, asegurando coherencia y usabilidad del producto. Trabajará de manera colaborativa con desarrolladores, product managers y otros diseñadores.\n\nEl candidato establecerá guías de estilo, bibliotecas de componentes y documentación de diseño, participando en sesiones de ideación de productos. Deberá mantenerse actualizado en tendencias y herramientas de UI/UX y comunicar decisiones de diseño de manera efectiva.\n\nDeberá equilibrar estética y funcionalidad, evaluando métricas de usabilidad y ajustando iterativamente los diseños. Se requiere autonomía, proactividad y enfoque en la satisfacción del usuario, contribuyendo al éxito de los proyectos digitales.",
     requirements: [
@@ -63,6 +69,8 @@ export const JOBS: IJob[] = [
     location: "Lima, Perú",
     modality: "Híbrido",
     posted: "Hace 3 horas",
+    contractType: "Contrato Indefinido",
+    time: "Tiempo completo",
     details:
       "Se busca un Gerente de Marketing Digital con experiencia en creación y ejecución de estrategias. Será responsable de campañas de SEO, SEM, marketing de contenidos y redes sociales. Analizará métricas y datos para optimizar campañas y colaborará con otros departamentos para asegurar coherencia en la comunicación de la marca.\n\nDeberá liderar equipos de marketing, establecer objetivos claros y realizar seguimiento de resultados. Participará en la planificación de medios, presupuesto y campañas publicitarias, asegurando la eficiencia y efectividad de las estrategias.\n\nSe valorará proactividad, capacidad analítica, comunicación efectiva y liderazgo. Debe mantenerse actualizado sobre tendencias de marketing digital y tecnologías emergentes, implementando mejoras y optimización de procesos.",
     requirements: [
@@ -81,6 +89,8 @@ export const JOBS: IJob[] = [
     location: "Lima, Perú",
     modality: "Remoto",
     posted: "Hace 4 horas",
+    contractType: "Contrato Indefinido",
+    time: "Tiempo completo",
     details:
       "Se requiere un Especialista en SEO para mejorar el posicionamiento orgánico de productos digitales. Será responsable de auditorías SEO, optimización on-page y off-page, y análisis de keywords. Debe colaborar con equipos de contenido y marketing para implementar estrategias efectivas.\n\nEl candidato deberá monitorear el rendimiento SEO usando herramientas de análisis y realizar informes periódicos de tráfico y posicionamiento. Participará en la planificación de campañas de link building y estrategias de contenido.\n\nSe espera conocimiento en algoritmos de motores de búsqueda, herramientas SEO (Google Search Console, Ahrefs, SEMrush) y experiencia en proyectos digitales. Debe ser proactivo, analítico y orientado a resultados.",
     requirements: [
@@ -99,6 +109,8 @@ export const JOBS: IJob[] = [
     location: "Lima, Perú",
     modality: "Presencial",
     posted: "Hace 5 horas",
+    contractType: "Contrato por Inicio o incremento de actividad",
+    time: "Tiempo completo",
     details:
       "Se busca un Desarrollador Backend especializado en Node.js para construir APIs escalables y de alto rendimiento. Será responsable de diseño, implementación y mantenimiento de servicios backend, integrando bases de datos y sistemas externos. Debe garantizar seguridad, eficiencia y escalabilidad de los servicios.\n\nEl candidato participará en revisiones de código, pruebas unitarias e integración, y trabajará con metodologías ágiles. Deberá documentar APIs y coordinarse con equipos frontend para integración de servicios.\n\nSe valorará experiencia con bases de datos SQL y NoSQL, microservicios, autenticación, autorización, Docker y despliegue en cloud (AWS, GCP, Azure). Se requiere proactividad, resolución de problemas y trabajo en equipo.",
     requirements: [
@@ -117,6 +129,8 @@ export const JOBS: IJob[] = [
     location: "Lima, Perú",
     modality: "Híbrido",
     posted: "Hace 6 horas",
+    contractType: "Contrato por locación de servicios",
+    time: "Tiempo completo",
     details:
       "Se busca Administrador de Sistemas para gestionar infraestructura de servidores, redes y servicios internos. Será responsable de mantenimiento, monitorización y seguridad de sistemas, asegurando disponibilidad y rendimiento óptimos. Deberá implementar políticas de backup, recuperación ante desastres y control de accesos.\n\nEl candidato coordinará actualizaciones, parches de seguridad y optimización de recursos. Participará en proyectos de migración tecnológica y automatización de procesos, garantizando eficiencia operativa.\n\nSe requiere conocimientos en sistemas Windows y Linux, virtualización, redes, cloud y seguridad informática. Debe ser proactivo, analítico y capaz de resolver problemas de manera eficiente.",
     requirements: [
@@ -135,6 +149,8 @@ export const JOBS: IJob[] = [
     location: "Lima, Perú",
     modality: "Remoto",
     posted: "Hace 7 horas",
+    contractType: "Contrato Indefinido",
+    time: "Tiempo completo",
     details:
       "Se requiere Especialista en Ciberseguridad para proteger activos digitales y sistemas internos. Será responsable de auditorías de seguridad, implementación de políticas, detección de vulnerabilidades y respuesta a incidentes. Deberá colaborar con equipos de IT y desarrollo para garantizar cumplimiento normativo.\n\nEl candidato implementará medidas de prevención y control, analizará amenazas y realizará reportes de incidentes. Participará en la capacitación de personal y adopción de buenas prácticas de seguridad.\n\nSe valorará experiencia en firewalls, IDS/IPS, sistemas de autenticación, encriptación y normativas de seguridad. Debe ser analítico, proactivo y orientado a la mejora continua de la ciberseguridad.",
     requirements: [
@@ -153,6 +169,8 @@ export const JOBS: IJob[] = [
     location: "Lima, Perú",
     modality: "Presencial",
     posted: "Hace 8 horas",
+    contractType: "Contrato por 3 meses",
+    time: "Part time",
     details:
       "Se busca Analista de Datos con experiencia en Python para extracción, limpieza y análisis de datos. Será responsable de crear reportes, dashboards y modelos predictivos que apoyen la toma de decisiones. Colaborará con equipos de negocio y desarrollo para definir métricas y objetivos.\n\nEl candidato deberá implementar pipelines de datos eficientes, integrando fuentes diversas y automatizando procesos de análisis. Participará en revisión de calidad de datos y documentación de procedimientos.\n\nSe requiere experiencia en Python, SQL, pandas, NumPy y visualización de datos. Capacidad analítica, resolución de problemas y comunicación efectiva son esenciales para el rol.",
     requirements: [
@@ -165,12 +183,15 @@ export const JOBS: IJob[] = [
   },
   {
     id: 10,
-    title: "Gerente de Producto",
+    title:
+      "Gerente de Producto Digital (SaaS) y E-commerce con Metodologías Ágiles",
     company: "Intercorp",
     logo: "https://placehold.co/50",
     location: "Lima, Perú",
     modality: "Híbrido",
     posted: "Hace 9 horas",
+    contractType: "Contrato Indefinido",
+    time: "Tiempo completo",
     details:
       "Se busca Gerente de Producto con experiencia en planificación, ejecución y seguimiento de productos digitales. Será responsable de definir roadmap, priorizar funcionalidades y colaborar con equipos de desarrollo, UX/UI y marketing. Debe asegurar que los productos cumplan con objetivos de negocio y satisfagan a los usuarios.\n\nEl candidato deberá coordinar lanzamiento de funcionalidades, análisis de métricas de uso y feedback de usuarios. Participará en reuniones estratégicas, definición de KPIs y optimización de procesos de desarrollo.\n\nSe requiere visión estratégica, liderazgo, comunicación efectiva y experiencia en metodologías ágiles. Capacidad analítica, resolución de problemas y toma de decisiones basadas en datos serán clave para el éxito del rol.",
     requirements: [

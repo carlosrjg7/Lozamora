@@ -33,7 +33,7 @@ export default function Sidebar({ jobs, fnJobSelected }: SidebarProps) {
 
   return (
     <div className='flex flex-col h-full relative'>
-      <SimpleBar className='h-full pb-14'>
+      <SimpleBar className='h-full pb-14 min-w-1/3'>
         <div className='h-[calc(100% - 50px)]'>
           {jobs.map((job: IJob, index) => (
             <Card
@@ -45,7 +45,7 @@ export default function Sidebar({ jobs, fnJobSelected }: SidebarProps) {
           ))}
         </div>
       </SimpleBar>
-      <div className='absolute bottom-0 w-full flex justify-between gap-4 px-3 bg-white py-2'>
+      <div className='absolute bottom-0 w-2/3 md:w-full flex justify-between gap-4 px-3 bg-white py-2'>
         <button
           type='button'
           className='w-full bg-primary-200 text-font font-semibold font-poppins text-xs rounded-2xl px-4 py-2'
