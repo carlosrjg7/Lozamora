@@ -1,13 +1,13 @@
 import { Fragment } from "react";
 import { Popover, Transition } from "@headlessui/react";
-import { MagnifyingGlassIcon } from "@heroicons/react/20/solid";
+import { UserCircleIcon } from "@heroicons/react/20/solid";
 import { Link } from "react-router-dom";
 
 export default function NavMenu() {
   return (
     <Popover className=''>
       <Popover.Button className='inline-flex items-center gap-x-1 text-sm font-semibold leading-6 p-1 rounded-lg outline-0'>
-        <MagnifyingGlassIcon className='w-8 h-8 text-white ' />
+        <UserCircleIcon className='w-8 h-8 text-white ' />
       </Popover.Button>
 
       <Transition
