@@ -1,5 +1,9 @@
 import type { IJob } from "@/types/Jobs";
-import { EllipsisVerticalIcon } from "@heroicons/react/24/outline";
+import {
+  EllipsisVerticalIcon,
+  HeartIcon,
+  ShareIcon,
+} from "@heroicons/react/24/outline";
 import SimpleBar from "simplebar-react";
 
 interface DetailsJobProps {
@@ -8,7 +12,7 @@ interface DetailsJobProps {
 
 export default function DetailsJob({ job }: DetailsJobProps) {
   return (
-    <section className='border border-gray-200 rounded-2xl flex-1 pl-5 pt-5 pb-5 text-font'>
+    <section className='relative w-full border border-gray-200 rounded-2xl flex-1 p-5 text-font'>
       <SimpleBar className='h-full pr-4'>
         <div className='flex justify-between items-center mb-4'>
           <img src={job.logo} className='rounded-2xl' alt='logo' />
@@ -32,7 +36,31 @@ export default function DetailsJob({ job }: DetailsJobProps) {
           <p className='w-full text-wrap'>{job.details}</p>
         </div>
       </SimpleBar>
-      <div>footer</div>
+      <div className='w-full absolute bottom-0 left-0 right-0 p-4 bg-white border-t border-gray-200 rounded-b-2xl'>
+        <div className='w-1/2 flex flex-row justify-between gap-4 mx-auto my-1'>
+          <button
+            type='button'
+            className='flex items-center justify-center w-10 h-10 bg-primary-100 text-primary-500 font-semibold rounded-full p-2'
+            onClick={() => alert("Aplicar a la oferta de trabajo")}
+          >
+            <ShareIcon className='h-8 w-8 mx-auto' />
+          </button>
+          <button
+            type='button'
+            className='flex items-center justify-center w-10 h-10 bg-primary-100 text-primary-500 font-semibold rounded-full px-2'
+            onClick={() => alert("Aplicar a la oferta de trabajo")}
+          >
+            <HeartIcon className='h-8 w-8 mx-auto' />
+          </button>
+          <button
+            type='button'
+            className='w-full bg-primary-600 text-white font-semibold rounded-2xl px-10 py-2'
+            onClick={() => alert("Aplicar a la oferta de trabajo")}
+          >
+            Postularme
+          </button>
+        </div>
+      </div>
     </section>
   );
 }
