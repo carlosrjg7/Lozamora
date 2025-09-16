@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import "tailwindcss";
+
+@theme {
+  --color-primary-50: #f1eefc;
+  --color-primary-100: #e4dcf9;
+  --color-primary-200: #d6cbf6;
+  --color-primary-300: #c8b9f3;
+  --color-primary-400: #bba8f0;
+  --color-primary-500: #7651e1;
+  --color-primary-600: #53399e;
+  --color-primary-700: #473187;
+  --color-primary-800: #3b2971;
+  --color-primary-900: #2f205a;
+
+  --font-poppins: "Poppins", sans-serif;
+  --font-roboto: "Roboto", sans-serif;
+
+  --color-font: #313944;
+}
+
+@layer components {
+  .layout-grid {
+    @apply grid grid-cols-4 gap-4 px-8 md:grid-cols-8 lg:grid-cols-12;
+  }
+}
