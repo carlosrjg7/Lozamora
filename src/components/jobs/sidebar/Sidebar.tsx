@@ -17,8 +17,13 @@ export default function Sidebar({ jobs, fnJobSelected }: SidebarProps) {
   };
 
   const handleNext = () => {
-    setCurrentJobIndex((prevIndex) => Math.min(prevIndex + 1, jobs.length - 1));
-    fnJobSelected(jobs[currentJobIndex + 1]);
+    // comprobar que no se pasa del último índice
+    if (currentJobIndex < jobs.length - 1) {
+      setCurrentJobIndex((prevIndex) =>
+        Math.min(prevIndex + 1, jobs.length - 1)
+      );
+      fnJobSelected(jobs[currentJobIndex + 1]);
+    }
   };
 
   const handleCardClick = (index: number) => {

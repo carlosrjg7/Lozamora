@@ -16,8 +16,19 @@ export default function DetailsJob({ job }: DetailsJobProps) {
             <EllipsisVerticalIcon className='h-8 w-8 text-gray-600 cursor-pointer' />
           </span>
         </div>
-        <div className=''>
-          <h3 className='text-2xl font-bold font-poppins'>{job.title}</h3>
+        <div className='border-b border-gray-200 mb-4 pb-4 '>
+          <h3 className='text-2xl font-bold font-poppins leading-8'>
+            {job.title}
+          </h3>
+          <div>
+            <p className='text-lg text-primary-600 font-semibold leading-8'>
+              {job.company}
+            </p>
+            <p className='text-sm text-font leading-8'>{job.location}</p>
+            <p className='text-sm text-font leading-8'>Empresa Verificada</p>
+          </div>
+        </div>
+        <div>
           <p className='w-full text-wrap'>{job.details}</p>
         </div>
       </SimpleBar>
